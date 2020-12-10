@@ -1,0 +1,36 @@
+{
+    "status_code": 200,
+    "status": "OK",
+    "data": {
+        "to": "mockingserver@example.com",
+        "name": "Mocking Server",
+        "receipt_id": "10",
+        "purchase_date": "10-02-2020",
+        "action_url": "http://127.0.0.1:50000/admin-panel/",
+        "receipt_details": [
+            {
+                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas at placerat ante, sed placerat massa. In tincidunt diam eu quam feugiat pulvinar.",
+                "amount": "78.92",
+                "quantity": "2",
+                "unit_price": "20"
+            },
+            {
+                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas at placerat ante, sed placerat massa. In tincidunt diam eu quam feugiat pulvinar.",
+                "amount": "400",
+                "quantity": "2",
+                "unit_price": "200"
+            },
+            {
+                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas at placerat ante, sed placerat massa. In tincidunt diam eu quam feugiat pulvinar.",
+                "amount": "30.5",
+                "quantity": "2",
+                "unit_price": "15.25"
+            }
+        ],
+        "subtotal": "952",
+        "discount": "0",
+        "tax_rate": "15",
+        "tax": "50",
+        "total": "1000.2"
+    }
+}
