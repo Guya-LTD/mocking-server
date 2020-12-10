@@ -7,7 +7,8 @@ module.exports = (request, response) => {
     response.header('Access-Control-Allow-Origin', '*');
     response.writeHead(201, {
         'Content-Type': 'application/json',
-        'Content-Length': stat.size
+        'Content-Length': stat.size,
+        'Authorization': "Bearer " + authHeader
     });
  
     const readStream = fs.createReadStream(filePath);

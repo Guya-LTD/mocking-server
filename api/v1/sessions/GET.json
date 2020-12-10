@@ -1,0 +1,16 @@
+{
+    "status_code": 200,
+    "message": "Jwt Decoded",
+    "data": {
+        "id": 33,
+        "username": "User33",
+        "roles": {
+            "user": {
+                "create": true,
+                "read": true,
+                "update": true,
+                "delete": false
+            }
+        }
+    }
+}
